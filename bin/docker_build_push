@@ -1,0 +1,4 @@
+#!/bin/bash
+
+docker build -t aidanwallace/pi-stock-checker .
+docker push aidanwallace/pi-stock-checker

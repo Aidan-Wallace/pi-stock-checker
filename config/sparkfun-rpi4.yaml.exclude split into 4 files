@@ -1,0 +1,5 @@
+name: sparkfun rpi4
+baseUrl: https://www.sparkfun.com/products/15446?src=raspberrypi
+outOfStockIndicator:
+    styleAttributeName:
+    indicator:

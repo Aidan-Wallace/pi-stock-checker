@@ -1,0 +1,5 @@
+name: vilros piz2w
+baseUrl: https://vilros.com/products/raspberry-pi-zero-2-w?src=raspberrypi
+outOfStockIndicator:
+    styleAttributeName: "#product-form-template--14330620215390__main6624690896990 > div > div.payment-buttons > button > span"
+    indicator: Sold Out

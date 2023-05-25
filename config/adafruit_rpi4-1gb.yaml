@@ -1,0 +1,5 @@
+name: adafruit rpi4 1gb
+baseUrl: https://www.adafruit.com/product/4295
+outOfStockIndicator:
+  styleAttributeName: "#prod-stock > div.prod-oos-box > div"
+  indicator: Out of stock

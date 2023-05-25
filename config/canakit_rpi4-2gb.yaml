@@ -1,0 +1,5 @@
+name: canakit rpi4 2gb
+baseUrl: https://www.canakit.com/raspberry-pi-4-2gb.html?cid=usd&src=raspberrypi
+outOfStockIndicator:
+  styleAttributeName: "#ProductAddToCartDiv > a > span"
+  indicator: Pre-Orders Sold Out

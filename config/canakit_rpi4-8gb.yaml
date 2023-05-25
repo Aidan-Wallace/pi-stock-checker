@@ -1,0 +1,5 @@
+name: canakit rpi4 8gb
+baseUrl: https://www.canakit.com/raspberry-pi-4-8gb.html?cid=usd&src=raspberrypi
+outOfStockIndicator:
+  styleAttributeName: "#ProductAddToCartDiv > a > span"
+  indicator: Pre-Orders Sold Out

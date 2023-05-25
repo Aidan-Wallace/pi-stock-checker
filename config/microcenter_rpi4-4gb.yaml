@@ -1,0 +1,5 @@
+name: microcenter rpi4 4gb
+baseUrl: https://www.microcenter.com/product/621439/raspberry-pi-4-model-b---4gb-ddr4?src=raspberrypi
+outOfStockIndicator:
+  styleAttributeName: "#content > div.StandardSku.sk2022.ACnosale > div.banner-margin > div > div > div.col-lg-4.order-lg-3.order-md-2.order-3.col-md-6.actions > div.optionsRow.banner-margin-small > div > div.col-4.Options.buy-ship > div > span > span.when"
+  indicator: Shipping Not Available

@@ -1,0 +1,5 @@
+name: chicagodist piz2w
+baseUrl: https://chicagodist.com/products/raspberry-pi-zero-2?src=raspberrypi
+outOfStockIndicator:
+  styleAttributeName: "#shopify-section-product-template > div > div > div > div.product__description.seven.columns.omega.product__description--right > p.modal_price > span"
+  indicator: Sold Out

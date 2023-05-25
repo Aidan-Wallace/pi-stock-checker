@@ -1,0 +1,5 @@
+name: chicagodist rpi4 4gb
+baseUrl: https://chicagodist.com/products/raspberry-pi-4-model-b-4gb?src=raspberrypi
+outOfStockIndicator:
+    styleAttributeName: "#shopify-section-product-template > div > div > div > div.product__description.seven.columns.omega.product__description--right > p.modal_price > span"
+    indicator: Sold Out

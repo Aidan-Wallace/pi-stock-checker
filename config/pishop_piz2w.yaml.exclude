@@ -1,0 +1,13 @@
+name: pishop piz2w
+baseUrl: https://www.pishop.us/product/raspberry-pi-zero-w-2/?src=raspberrypi
+outOfStockIndicator:
+  styleAttributeName: "#form-action-addToCart"
+  indicator: # cannot be text value but value value
+
+
+# Move to new file and split into 4
+name: pishop rpi4
+baseUrl: https://www.pishop.us/product/raspberry-pi-4-model-b-2gb/?src=raspberrypi
+outOfStockIndicator:
+    styleAttributeName:
+    indicator:

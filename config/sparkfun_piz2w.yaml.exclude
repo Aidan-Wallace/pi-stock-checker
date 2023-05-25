@@ -1,0 +1,5 @@
+name: sparkfun piz2w
+baseUrl: https://www.sparkfun.com/products/18713?src=raspberrypi
+outOfStockIndicator:
+    styleAttributeName:
+    indicator:

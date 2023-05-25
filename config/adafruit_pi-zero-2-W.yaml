@@ -1,0 +1,8 @@
+name: adafruit Pi Zero 2 W
+baseUrl: https://www.adafruit.com/piz2w?src=raspberrypi
+outOfStockIndicator:
+  styleAttributeName: "#prod-stock > div.prod-oos-box > div"
+  indicator: Out of stock
+inStockIndicator:
+  styleAttributeName: "#prod-stock > span"
+  indicator: In stock

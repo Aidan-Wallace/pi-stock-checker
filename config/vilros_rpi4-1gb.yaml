@@ -1,0 +1,5 @@
+name: vilros rpi4 1gb
+baseUrl: https://vilros.com/products/raspberry-pi-4-model-b-1-gb-ram?src=raspberrypi
+outOfStockIndicator:
+  styleAttributeName: "#product-form-template--14330620215390__main3596674203748 > div > div.payment-buttons > button > span"
+  indicator: Sold Out
