@@ -25,7 +25,7 @@ jobs:
       - name: Build
         run: |
           mkdir tmp
-          go build -v -o tmp/pi-stock-checker main.go
+          go build -v -o pi-stock-checker main.go
 
       - name: Test
         run: go test -v ./...
@@ -35,5 +35,5 @@ jobs:
         with:
           name: build
           path: |
-            tmp/pi-stock-checker
+            pi-stock-checker
             config
