@@ -8,8 +8,8 @@ on:
     branches: ["main"]
   pull_request:
     branches: ["main"]
-  # schedule:
-  #   - cron: "*/5 * * * *"
+  schedule:
+    - cron: "*/5 * * * *"
 
 jobs:
   build:
@@ -23,9 +23,7 @@ jobs:
           go-version: 1.19
 
       - name: Build
-        run: |
-          mkdir tmp
-          go build -v -o pi-stock-checker main.go
+        run: go build -v -o pi-stock-checker main.go
 
       - name: Test
         run: go test -v ./...
@@ -37,3 +35,10 @@ jobs:
           path: |
             pi-stock-checker
             config
+
+      - name: Download results and run
+        uses: actions/download-artifact@v3
+        with:
+          name: build
+      - shell: bash
+        run: pi-stock-checker -cd configs
