@@ -42,3 +42,9 @@ jobs:
           name: build
       - shell: bash
         run: ./pi-stock-checker -cd config
+
+      - name: Archive production build
+        uses: actions/upload-artifact@v3
+        with:
+          name: results_$(date +%s)
+          path: results.json
