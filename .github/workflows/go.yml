@@ -5,24 +5,33 @@ name: Go
 
 on:
   push:
-    branches: [ "main" ]
+    branches: ["main"]
   pull_request:
-    branches: [ "main" ]
+    branches: ["main"]
+  # schedule:
+  #   - cron: "*/5 * * * *"
 
 jobs:
-
   build:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v3
+      - uses: actions/checkout@v3
 
-    - name: Set up Go
-      uses: actions/setup-go@v3
-      with:
-        go-version: 1.19
+      - name: Set up Go
+        uses: actions/setup-go@v3
+        with:
+          go-version: 1.19
 
-    - name: Build
-      run: go build -v ./...
+      - name: Build
+        run: go build -v -o tmp/pi-stock-checker ./...
 
-    - name: Test
-      run: go test -v ./...
+      - name: Test
+        run: go test -v ./...
+
+      - name: Archive production build
+        uses: actions/upload-artifact@v3
+        with:
+          name: build
+          path: |
+            tmp/pi-stock-checker
+            config
